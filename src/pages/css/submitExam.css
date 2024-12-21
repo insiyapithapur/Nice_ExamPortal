@@ -1,0 +1,79 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden; /* Prevents unwanted scrollbars */
+}
+
+#root {
+  width: 100%; 
+  height: 100%; 
+  margin: 0; 
+  padding: 0; 
+}
+
+.exam-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  font-family: 'Arial', sans-serif;
+  overflow-y: auto; /* Adds scroll when content exceeds */
+  box-sizing: border-box; /* Ensures padding and borders are included */
+}
+
+.header {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: space-between; Ensures space between left, middle, and right sections */
+  gap: 0px;
+  background-color: #ece5dd;
+  color: black;
+  padding: 20px;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-middle {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; Centers the content horizontally in the middle */
+  text-align: center;
+  flex: 1; /* Allows it to take up remaining space between left and right sections */
+}
+
+.last-middle {
+  display: flex;
+  /* justify-content: space-between; Ensures items are spaced evenly */
+  gap: 30px; /*Optional: Adds space between items*/
+  width: 100%; /* Ensures it stretches */
+  /* margin-top: 10px; Add margin to separate from above content */
+  justify-content: center;
+}
+
+.header-right {
+  display: none; /* Hide if not needed */
+}
+
+
+.body-container {
+  flex-grow: 1;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove padding if not needed */
+  overflow-y: auto; /* Enables scrolling for questions if needed */
+  display: flex; /* Enables centering */
+  align-items: center; /* Centers items vertically */
+  justify-content: center; /* Centers items horizontally */
+}
+
+.submission-box img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%; /* Optional: Makes the image circular */
+}
+

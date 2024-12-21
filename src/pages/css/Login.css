@@ -1,0 +1,128 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+    width: 100%; 
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+  }
+  
+/* Overall container */
+.login-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Left side: Image */
+  .login-image {
+    flex: 0.4;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Right side: Form */
+  .login-form-section {
+    flex: 0.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    background-color: #ffffff;
+  }
+  
+  /* Logo styling */
+  .logo img {
+    width: 250px;
+    margin-bottom: 20px;
+  }
+  
+  /* Title */
+  .login-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333333;
+    text-align: center;
+  }
+  
+  /* Form styling */
+  .login-form {
+    width: 100%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Input field styles */
+ /* Input field styles */
+.input-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .input-field label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: black;
+  }
+  
+  .input-field input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #cccccc;
+    border-radius: 10px; 
+    background-color: #6D809E; 
+    color: #000000; 
+  }
+  
+  .input-field input::placeholder {
+    color: #000000; 
+    font-style: italic;
+  }
+  
+  .login-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #1976d2;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #1976d2;
+  }
+  
+  .student-registration-link {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .student-registration-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .student-registration-link a:hover {
+    text-decoration: underline;
+  }
+  

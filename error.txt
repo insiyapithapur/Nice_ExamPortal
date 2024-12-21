@@ -1,0 +1,11 @@
+1.  text input while taking correct ans
+2.  in view paper question no are not correctly displaying
+3.  Show how many time is left in exam
+4.  Assign paper api
+4.  Post api to sumbit exam paper
+6.  in googleformclone make user as user exam info id
+
+
+
+1.  Set Exam : Question type MCQ : options placeholder , correct answer
+2.  Set Exam : Question type Text : correct answer

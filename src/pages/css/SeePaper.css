@@ -1,0 +1,89 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#set-root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.set-exam-container {
+    display: flex;
+    justify-content: flex-start; /* Align content at the top */
+    align-items: center;
+    flex-direction: column;
+    background-color: #e9dfd4;
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    max-height: 80%;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+.set-exam-container::-webkit-scrollbar {
+    display: none; 
+}
+
+.set-exam-root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading {
+    color: black;
+    margin-bottom: 16px;
+}
+
+.details-box {
+    padding: 32px;
+    background-color: white;
+    width: 90%;
+    max-height: 80vh; /* Set a maximum height relative to the viewport */
+    border-radius: 20px;
+    overflow-y: auto; /* Enable vertical scrolling for overflowing content */
+    box-sizing: border-box; /* Ensure padding is included in the box size */
+}
+
+/* Style the scrollbar for better UX (optional) */
+.details-box::-webkit-scrollbar {
+    width: 8px;
+}
+
+.details-box::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.details-box::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.paper-details {
+    color: black;
+}
+
+.question-box {
+    margin-top: 16px;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+
+}

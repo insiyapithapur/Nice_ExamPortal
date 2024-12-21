@@ -1,0 +1,38 @@
+
+/* General container styles */
+.form-builder-container {
+    padding: 32px; /* Add padding around the entire form builder */
+    background-color: white;
+  }
+  
+  /* Question box styling */
+  .question-box {
+    margin-top: 16px;
+    border: 1px solid #ddd; /* Light border around question boxes */
+    padding: 16px;
+  }
+  
+  /* Button styles */
+  .generate-questions-btn {
+    background-color: #ff4d4d;
+    color: white;
+    text-transform: none; /* Keep button text as entered */
+  }
+  
+  .question-save-btn {
+    margin-top: 16px;
+  }
+  
+  .option-box {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Small gap between radio/checkbox and the text field */
+  }
+  
+  /* Form field spacing */
+  .form-control {
+    margin-bottom: 16px;
+    background-color: #ddd;
+    width: 100%;
+  }
+  
